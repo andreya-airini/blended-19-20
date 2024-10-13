@@ -10,4 +10,17 @@
   line-height: 1.5;
   color: #2c2c2c;
 }
-  
+.main-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: right;
+  color: #2c2c2c;
+}
+.image-salad {
+  border-radius: 291px;
+  width: 528px;
+  height: 528px;
+  background: url("path_to_image");
+}
