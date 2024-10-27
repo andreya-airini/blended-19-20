@@ -1,0 +1,38 @@
+.favourites {
+  padding-top: 120px;
+}
+.favourites-subtitle {
+  max-width: 656px;
+  margin: 0 auto 20px;
+  font-weight: 700;
+  font-size: 42px;
+  text-align: center;
+  color: #2c2c2c;
+}
+.favorites-text {
+  max-width: 656px;
+  font-size: 16px;
+  text-align: center;
+  color: #2c2c2c;
+  margin: 0 auto 40px;
+}
+.favourites-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 32px;
+  row-gap: 32px;
+  width: calc((100% - 32 * 3) / 3);
+}
+.favorites-item {
+  border: 16px solid #ffe550;
+  border-radius: 197px;
+  width: 394px;
+  height: 397px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.favourites-list-image {
+  width: 315px;
+  height: auto;
+}
