@@ -321,5 +321,26 @@
         </div>
       </div>
     </footer>
+    <div class="modal-overlay is-open">
+      <div class="modal">
+        <button class="button-modal" type="button"><svg class="icon-button" width="11" height="11"><use href="./images/symbol-defs.svg#icon-vector"></use></svg></button>
+        <p class="title-modal">Order Form</p>
+        <form class="form-wrapper">
+          <div class="form-container">
+            <label  class="label-modal" for="user-name">Name</label>
+            <input class="input-modal" type="text" id="user-name" name="user-name" placeholder="Your name" required/>
+          </div><div class="form-container">
+            <label  class="label-modal" for="user-phone">Phone number</label>
+            <input class="input-modal" type="tel" id="user-phone" name="user-phone" placeholder="+38(0_ _) _ _ _   _ _   _ _" required />
+          </div><div class="form-container-email">
+            <label class="label-modal" for="user-email">E-mail</label>
+            <input class="input-modal" type="email" id="user-email" name="user-email" placeholder="example@gmail.com" required />
+          </div>
+          <button class="form-button" type="submit">Send</button>
+
+        </form>
+
+      </div>
+    </div>
   </body>
 </html>
