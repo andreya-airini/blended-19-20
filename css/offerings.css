@@ -1,0 +1,66 @@
+
+/*------------------Valeriia------------*/
+.section-offerings {
+    background: #ffe550;
+    padding: 167px 0 124px 0;
+}
+.container-description{
+    display: flex;
+}
+.offerings-title {
+        font-weight: 700;
+        font-size: 42px;
+        color: #2c2c2c;
+        margin-bottom: 20px;
+        max-width: 526px;
+}
+
+.offerings-text {
+        line-height: 1.5;
+        color: #2c2c2c;
+        max-width: 500px;
+}
+
+.offerings-list {
+    display: flex;
+    gap: 80px;
+}
+
+.offerings-item {
+       
+}
+
+.offerings-item-subtitle {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.4;
+        color: #2c2c2c;
+        margin-top: 96px;
+}
+
+.offerings-item-text {
+        font-size: 14px;
+        line-height: 1.5;
+        color: #2c2c2c;
+        margin-top: 16px;
+        margin-bottom: 32px;
+}
+
+.offerings-img {
+    max-width: 100%;
+    margin-right: 90px;
+}
+
+.button{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 1.5;
+        color: #2c2c2c;
+    border: 2px solid #7eb101;
+        border-radius: 30px;
+        padding: 10px 20px;
+        width: 106px;
+        height: 40px;
+        background: #fff;
+}

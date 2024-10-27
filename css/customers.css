@@ -1,0 +1,75 @@
+/* Vladislav */
+
+.section-customers {
+    background: #ffe550;
+    padding: 140px 0;
+}
+
+.container-customers {
+    display: flex;
+    flex-direction: column;
+}
+
+.customers-title {
+    font-weight: 700;
+    font-size: 42px;
+    color: #2c2c2c;
+    margin-bottom: 20px;
+}
+
+.customers-text {
+    line-height: 1.5;
+    color: #2c2c2c;
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+.customers-list {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.customer-card {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 0 20px 20px 20px;
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.customer-item-text {
+    font-style: italic;
+    color: #2c2c2c;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.customer-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.customer-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.customer-name {
+    font-weight: 700;
+    font-size: 16px;
+    color: #2c2c2c;
+    margin-bottom: 10px;
+}
+
+.customer-role {
+    font-size: 14px;
+    color: #2c2c2c;
+}
+
