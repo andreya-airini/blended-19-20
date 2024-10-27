@@ -1,63 +1,65 @@
 .header {
-    box-shadow: 0 4px 24px 0 rgba(105, 105, 105, 0.1);
-    background: #fefefe;
+  box-shadow: 0 4px 24px 0 rgba(105, 105, 105, 0.1);
+  background: #fefefe;
 }
 
-.container {}
+.container {
+}
 
-.header-container{
-    display: flex;
+.header-container {
+  display: flex;
 }
 
 .header-navigation {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.header-logo {}
+.header-logo {
+}
 
 .header-list {
-    display: flex;
-    margin-left: 735px;
-    gap: 24px;
+  display: flex;
+  margin-left: 735px;
+  gap: 24px;
 }
 
-.header-item {}
+.header-item {
+}
 
 .header-link {
-    font-weight: 400;
-    font-size: 14px;
-    padding-top: 28px;
-    padding-bottom: 28px;
-    color: #2c2c2c;
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  color: #2c2c2c;
 }
 
 .header-link:hover,
-.header-link:focus{
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    color: #bbf330;
+.header-link:focus {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #bbf330;
 }
 
-.active{
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    color: #bbf330;
+.active {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #bbf330;
 }
 
 .header-btn {
-    border-radius: 30px;
-    background: #bbf330;
-    border: none;
-    margin-left: 32px;
-    width: 98px;
-    height: 32px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  border-radius: 30px;
+  background: #bbf330;
+  border: none;
+  margin-left: 32px;
+  width: 98px;
+  height: 32px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
-    font-weight: 500;
-        font-size: 13px;
-        line-height: 1.5;
-        color: #2c2c2c;
-    
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
 }
