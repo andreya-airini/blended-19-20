@@ -52,7 +52,7 @@ margin-bottom: 55px;
   border-radius: 291px;
   width: 528px;
   height: 528px;
-}
-.button-box {
-  
+  border-radius: 100%;
+  border: 16px solid #ffe550;
+  display: flex;
 }
