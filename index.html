@@ -25,10 +25,11 @@
     <link rel="stylesheet" href="./css/hero.css" />
     <link rel="stylesheet" href="./css/offerings.css" />
     <link rel="stylesheet" href="./css/substribe.css" />
+    <link rel="stylesheet" href="./css/hero-mobfirst.css" />
   </head>
   <body>
     <!-- Andreya -->
-    <header class="header">
+    <header class="header hidden">
       <div class="container header-container">
         <nav class="header-navigation">
           <a class="header-logo" href="">
@@ -57,7 +58,6 @@
       <!-- Halina -->
       <section>
         <div class="container container-main">
-          <div>
             <div class="main-title-text-box">
               <h1 class="main-title">
                 Enjoy Your Favourite Food From Anywhere
@@ -68,21 +68,28 @@
                 Order now and enjoy a hassle-free and delicious meal from the
                 comfort of your own home.
               </p>
-            </div>
+            
             <button type="button" class="main-button">Order Now</button>
           </div>
           <div class="image-box">
-            <img
-              class="image-"
-              src="./images/salad.png"
-              alt="Salad"
-              width="528"
-            />
+            <picture class="image-salad">
+              <source
+                srcset="./images/salad-desk-1x.png 1x, ./images/salad-desk-2x.png 2x"
+                media="(min-width: 1158px)" />
+              <source class="image-salad">
+              <source
+              srcset="./images/salad-tab-1x.png 1x, ./images/salad-tab-1x.png 2x"
+              media="(min-width: 768px)" />
+              <img
+                src="./images/salad-desk-1x.png"
+                alt="Salad"
+                width="292" /> 
+            </picture>
           </div>
         </div>
       </section>
       <!-- Elizabeth -->
-      <section class="section-offerings">
+      <section class="section-offerings hidden">
         <div class="container container-description">
           <img class="offerings-img" src="./images/img-apple.svg" alt="apple" />
           <div class="description">
@@ -117,7 +124,7 @@
         </div>
       </section>
       <!-- Oleksiy -->
-      <section class="favourites">
+      <section class="favourites hidden">
         <div class="container">
         <h2 class="favourites-subtitle">Some of Our Favorites</h2>
         <p class="favorites-text">Looking for something delicious?</p>
@@ -179,7 +186,7 @@
         </div>
       </section>
       <!-- Vladislav -->
-      <section class="section-customers">
+      <section class="section-customers hidden">
         <div class="container container-customers">
           <h2 class="customers-title">What our Customers Say</h2>
           <p class="customers-text">
@@ -231,7 +238,7 @@
         </div>
       </section>
       <!-- Darya -->
-      <section class="substribe">
+      <section class="substribe hidden">
         <div class="container substribe-container">
           <div class="informal-container">
             <h2 class="substribe-title">Subscribe To Get Special Offers</h2>
@@ -259,7 +266,7 @@
       </section>
     </main>
     <!-- Oksana -->
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="container">
         <div class="footer-container">
           <nav class="footer-navigation">
@@ -321,7 +328,8 @@
         </div>
       </div>
     </footer>
-    <div class="modal-overlay is-open">
+    <div class="modal-overlay ">
+    <div class="modal-overlay">
       <div class="modal">
         <button class="button-modal" type="button"><svg class="icon-button" width="11" height="11"><use href="./images/symbol-defs.svg#icon-vector"></use></svg></button>
         <p class="title-modal">Order Form</p>

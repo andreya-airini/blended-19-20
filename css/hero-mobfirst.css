@@ -1,0 +1,150 @@
+.hidden {
+  display: none;
+}
+.container {
+  width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.container-main {
+  width: 320px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+.main-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+  color: #2c2c2c; 
+  display: flex;
+  flex-wrap: wrap; 
+}
+.main-title-text {
+  font-size: 14px;
+  line-height: 1.43;
+  color: #2c2c2c;  
+  margin-top: 28px;
+}
+.main-button {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: right;
+  color: #2c2c2c;
+  display: block;
+  border-radius: 30px;
+  padding: 6px 17px;
+  min-width: 98px;
+  height: 32px;
+  background: #bbf330;
+  margin-top: 32px;
+  margin-left: 0;
+
+  }
+.main-button:hover,
+.main-button:focus {
+  background: #ffe450;
+  }
+.image-box {
+    visibility: hidden;
+  }
+
+  /*-----------TABLET--------------*/
+
+  @media  (min-width: 768px) {
+.container {
+  min-width: 768px;
+  margin: 0 auto;
+  padding: 0 32px;
+    }
+.container-main {
+  width: 100%;
+  height: 409px;
+  display: flex;
+  flex-direction: row;
+    }
+.main-title-text-box {
+    width: 537px;
+    height: 264px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: 16px;
+  }    
+.main-title {
+  font-size: 42px; 
+  width: 537px;
+  height: 100px; 
+      }
+.main-title-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  margin-top: 44px;
+  width: 336px;
+  height: 120px;
+ }
+.main-button {
+  margin-top: 40px;
+  border: none;
+  align-items: start;
+  justify-content: start;
+  }
+.image-box {
+  visibility: unset;
+  width: 336px;
+  height: 320px;
+  border-radius: 291px;
+  border-radius: 100%;
+  border: 16px solid #ffe550;
+  display: flex;
+  width: 336px;
+  height: 320px;
+  }
+  
+  /*--------------DESKTOP-------------*/
+
+  @media  (min-width: 1158px) {
+.container {
+  min-width: 1158px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.container-main {
+  display: flex;
+  margin-bottom: 55px;
+}
+.main-title-text-box {
+   width: 511px;
+   height: 213px;
+   margin-top: 159px;
+   margin-right: 160px;
+   margin-bottom: 40px;
+   margin-left: 16px;
+      }
+.main-title-text {
+  margin-top: 28px;
+  width: 511px;
+  height: 69px;
+  }
+.main-button {
+  flex-direction: row;
+  cursor: pointer;
+  margin-right: 573px;
+  margin-left: 16px;
+  border: none;
+  align-items: start;
+  justify-content: start;
+  }
+  .image-box {
+    border-radius: 291px;
+    width: 528px;
+    height: 528px;
+    border-radius: 100%;
+    border: 16px solid #ffe550;
+    display: flex;
+  }
+}
