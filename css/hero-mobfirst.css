@@ -62,12 +62,14 @@
   padding: 0 32px;
     }
 .container-main {
-  width: 100%;
+  width: 704px;
   height: 409px;
   display: flex;
   flex-direction: row;
+  position: relative;
     }
 .main-title-text-box {
+    position: absolute;
     width: 537px;
     height: 264px;
     margin-top: 60px;
@@ -76,7 +78,7 @@
   }    
 .main-title {
   font-size: 42px; 
-  width: 537px;
+  min-width: 537px;
   height: 100px; 
       }
 .main-title-text {
@@ -101,8 +103,44 @@
   border-radius: 100%;
   border: 16px solid #ffe550;
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 336px;
   height: 320px;
+  margin-top: 149px;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  }
+.icon-less-box {
+  width: 34px;
+  height: 28px;
+  border-radius: 4px;
+  fill: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+  position: absolute;
+  top: 130px;
+  right: 294px;
+  border: none;
+}
+.icon-more-box {
+  width: 34px;
+  height: 28px;
+  border-radius: 4px;
+  fill: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+  position: absolute;
+  top: 130px;
+  right: -25px;
+  border: none;
+}
+.icon-hero {
+  fill: #2c2c2c;
+}
+.icon-hero:hover,
+.icon-hero:focus {
+  fill: #7eb101;
+}
   }
   
   /*--------------DESKTOP-------------*/
@@ -115,6 +153,7 @@
 }
 .container-main {
   display: flex;
+  height: 580px;;
   margin-bottom: 55px;
 }
 .main-title-text-box {
@@ -146,5 +185,14 @@
     border-radius: 100%;
     border: 16px solid #ffe550;
     display: flex;
+  }
+  .icon-hero {
+    display: none;
+  }
+  .icon-less-box {
+    display: none;
+  }
+  .icon-more-box {
+    display: none;
   }
 }
